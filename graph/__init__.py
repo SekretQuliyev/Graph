@@ -6,7 +6,7 @@
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/uaudith/Userge/blob/master/LICENSE >
 #
-# All rights reserved.
+# All rights reserved..
 
 from userge.logger import logging  # noqa
 from userge.config import Config, get_version  # noqa
