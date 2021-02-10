@@ -26,7 +26,7 @@ initUserge() {
 
 startUserge() {
     startLogBotPolling
-    runPythonModule userge "$@"
+    runPythonModule graph "$@"
 }
 
 stopUserge() {
