@@ -17,7 +17,7 @@ import heroku3
 from git import Repo
 from pyrogram import filters
 
-from userge import logging, logbot
+from graph import logging, logbot
 
 _REPO = Repo()
 _LOG = logging.getLogger(__name__)
