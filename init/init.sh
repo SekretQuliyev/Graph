@@ -37,13 +37,13 @@ stopGraph() {
 
 handleSigTerm() {
     log "Exiting With SIGTERM (143) ..."
-    stopUserge
+    stopGraph
     exit 143
 }
 
 handleSigInt() {
     log "Exiting With SIGINT (130) ..."
-    stopUserge
+    stopGraph
     exit 130
 }
 
