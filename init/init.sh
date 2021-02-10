@@ -47,7 +47,7 @@ handleSigInt() {
     exit 130
 }
 
-runUserge() {
+runGraph() {
     initGraph
     startGraph "$@"
     stopGraph
