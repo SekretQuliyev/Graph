@@ -8,7 +8,7 @@
 #
 # All rights reserved.
 
-from userge import userge
+from graph import graph
 
 if __name__ == "__main__":
-    userge.begin()
+    graph.begin()
