@@ -15,7 +15,7 @@
 trap handleSigTerm TERM
 trap handleSigInt INT
 
-initUserge() {
+initGraph() {
     printLogo
     assertPrerequisites
     sendMessage "Initializing USERGE-X ..."
@@ -24,12 +24,12 @@ initUserge() {
     printLine
 }
 
-startUserge() {
+startGraph() {
     startLogBotPolling
     runPythonModule graph "$@"
 }
 
-stopUserge() {
+stopGraph() {
     sendMessage "Exiting USERGE-X ..."
     endLogBotPolling
     exit 0
@@ -48,7 +48,7 @@ handleSigInt() {
 }
 
 runUserge() {
-    initUserge
-    startUserge "$@"
-    stopUserge
+    initGraph
+    startGraph "$@"
+    stopGraph
 }
