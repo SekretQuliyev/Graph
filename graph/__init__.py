@@ -8,9 +8,9 @@
 #
 # All rights reserved..
 
-from userge.logger import logging  # noqa
-from userge.config import Config, get_version  # noqa
-from userge.core import (  # noqa
-    Userge, filters, Message, get_collection, pool)
+from graph.logger import logging  # noqa
+from graph.config import Config, get_version  # noqa
+from graph.core import (  # noqa
+    Graph, filters, Message, get_collection, pool)
 
 graph = Graph()  # userge is the client name
