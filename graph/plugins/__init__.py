@@ -14,8 +14,8 @@ import sys
 from os.path import dirname
 from typing import List
 
-from userge import logging
-from userge.utils import get_import_path
+from graph import logging
+from graph.utils import get_import_path
 
 _LOG = logging.getLogger(__name__)
 ROOT = dirname(__file__)
